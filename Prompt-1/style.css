@@ -254,13 +254,12 @@ nav>div>a:hover {
 
             .slides>div {
                         width: 60%;
-                        /* background-color: red; */
+                     
             }
 
             .menuItem {
                         font-size: 60px;
                         position: absolute;
-                        /* transition: 0.6s all; */
             }
 
             .menuItem>a {
