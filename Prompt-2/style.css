@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Wet+Paint&family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&family=Khula:wght@300;400;600;700;800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Wet+Paint&family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Kavoon&family=Khula:wght@300;400;600;700;800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Wet+Paint&family=Sora:wght@100..800&display=swap');
 
 :root {
             --primary-color: #F6AD7B;
@@ -32,6 +34,7 @@ nav>img {
 }
 
 nav {
+            height: 16vh;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -62,6 +65,7 @@ nav {
             height: 35px;
             border-radius: 50%;
             background-color: white;
+            margin-right: 15px;
 }
 
 
@@ -69,6 +73,97 @@ nav {
             line-height: 36px;
             font-size: 29px;
             color: var(--primary-color);
+            cursor: pointer;
+}
+
+.content {
+            width: 100%;
+            height: calc(100% - 16vh);
+            display: flex;
+}
+
+.half {
+            width: 50%;
+            height: 100%;
+}
+
+.contentLeftSide {
+            padding-top: 41px;
+}
+
+.contentLeftSide h1 {
+            font-family: "Kavoon", serif;
+            font-size: 117px;
+            color: var(--primary-color);
+            position: relative;
+            z-index: 1;
+}
+
+.contentLeftSide h1::before {
+            content: "Explore";
+            position: absolute;
+            color: rgba(0, 0, 0, 0.348);
+            left: 1%;
+            top: 5%;
+            z-index: -1;
+}
+
+.contentLeftSide h2 {
+            position: relative;
+            font-family: "Angkor", serif;
+            font-size: 57px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: white;
+            line-height: 72px;
+            margin-bottom: 6px;
+}
+
+.contentLeftSide p {
+            color: white;
+            font-size: 16px;
+            width: 55%;
+            font-family: Arial, Helvetica, sans-serif, serif;
+            font-weight: lighter;
 }
 
 
+.contentLeftSide>button {
+            padding: 10px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 12px;
+            margin-top: 10px;
+            border-radius: 10px;
+            border: none;
+            background-color: var(--primary-color);
+            color: white;
+            font-weight: 900;
+}
+
+.contentRightSide {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+}
+
+
+.contentRightSide>img {
+            width: 551px;
+}
+
+.img1 {
+            position: absolute;
+            width: 70px;
+            left: 94px;
+            top: 7px;
+}
+
+.img2 {
+            width: 70px;
+            position: absolute;
+            top: -31px;
+            right: 188px;
+            transform: rotate(-24deg);
+}
