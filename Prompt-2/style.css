@@ -80,6 +80,7 @@ nav {
             width: 100%;
             height: calc(100% - 16vh);
             display: flex;
+
 }
 
 .half {
@@ -89,7 +90,40 @@ nav {
 
 .contentLeftSide {
             padding-top: 41px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding-bottom: 50px;
 }
+
+.contact_info>div {
+            display: flex;
+            align-items: center;
+            gap: 2px;
+}
+
+.contact_info {
+            display: flex;
+            gap: 20px;
+}
+
+.contact_info i {
+            color: var(--primary-color);
+            font-size: 30px;
+            cursor: pointer;
+}
+
+.contact_info>div>p {
+            color: white;
+            font-weight: 600;
+            font-family: Arial, Helvetica, sans-serif;
+            cursor: pointer;
+}
+
+.contact_info>div>p:hover {
+            text-decoration: underline;
+}
+
 
 .contentLeftSide h1 {
             font-family: "Kavoon", serif;
@@ -119,7 +153,7 @@ nav {
             margin-bottom: 6px;
 }
 
-.contentLeftSide p {
+.contentLeftSide .para {
             color: white;
             font-size: 16px;
             width: 55%;
@@ -128,7 +162,7 @@ nav {
 }
 
 
-.contentLeftSide>button {
+.contentLeftSide button {
             padding: 10px 20px;
             display: flex;
             justify-content: center;
@@ -140,6 +174,17 @@ nav {
             background-color: var(--primary-color);
             color: white;
             font-weight: 900;
+            overflow: hidden;
+            cursor: pointer;
+}
+
+.contentLeftSide button i {
+            transition: 0.3s all;
+}
+
+.contentLeftSide button:hover i {
+            transform: translateX(300%);
+
 }
 
 .contentRightSide {
@@ -150,7 +195,7 @@ nav {
 
 
 .contentRightSide>img {
-            width: 551px;
+            width: 655px;
 }
 
 .img1 {
