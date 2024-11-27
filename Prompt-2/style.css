@@ -212,3 +212,12 @@ nav {
             right: 188px;
             transform: rotate(-24deg);
 }
+
+.btns {
+            display: flex;
+            gap: 10px;
+}
+
+.btns>button:nth-child(2) {
+            padding: 10px 50px;
+}
