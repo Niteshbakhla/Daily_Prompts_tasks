@@ -317,6 +317,10 @@ nav {
     width: 60%;
   }
 
+  nav>img {
+    width: 31px;
+  }
+
   .contentLeftSide {
     padding-top: 50px;
     padding-bottom: 0px;
