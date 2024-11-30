@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Jaro:opsz@6..72&family=Kavoon&family=Khula:wght@300;400;600;700;800&family=Londrina+Shadow&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Protest+Revolution&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Wet+Paint&family=Sora:wght@100..800&display=swap');
+
+
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+}
+
+html,
+body {
+            width: 100%;
+            height: 100%;
+}
+
+
+
+
+.container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+}
+
+.brochure {
+            width: 40%;
+            height: 95%;
+            background-color: rgb(225, 243, 225);
+            box-shadow: -10px 20px 20px #00000086;
+            overflow: hidden;
+            position: relative;
+
+}
+
+.bigCircle {
+            width: 300px;
+            height: 300px;
+            background-color: lightblue;
+            border-radius: 50%;
+            scale: 3;
+            position: relative;
+            top: -30%;
+            margin: 0 auto;
+            box-shadow: inset 5px 5px 20px #000000;
+            z-index: 1;
+}
+
+
+.smallCircle {
+            width: 300px;
+            height: 300px;
+            background-color: lightblue;
+            border-radius: 50%;
+            scale: 3;
+            margin-left: 95%;
+            z-index: -1;
+}
+
+nav {
+            width: 100%;
+            height: 5vh;
+            margin-top: 20px;
+            padding: 0 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+}
+
+nav>div:nth-child(2)>span {
+            display: inline-block;
+            background-color: white;
+            border-radius: 50%;
+            padding: 5px;
+            cursor: pointer;
+}
+
+.overlay {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            z-index: 3;
+}
+
+.content {
+            width: 100%;
+            height: calc(100% - 5vh);
+            padding: 20px 30px;
+}
+
+.leftSide,
+.rightSide {
+            width: 50%;
+}
+
+.leftSide h1:nth-child(1) {
+            font-size: 3vw;
+
+}
+
+.leftSide>h1 {
+            line-height: 52px;
+            font-family: "Jaro", sans-serif;
+}
+
+.leftSide h1:nth-child(2) {
+            font-size: 4vw;
+}
+
+.leftSide h1:nth-child(3) {
+            font-size: 5vw;
+            margin-bottom: 20px;
+}
+
+.leftSide p {
+            font: 14px;
+            line-height: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+}
+
+.downContent {
+            width: 100%;
+            height: 50%;
+            padding-top: 50px;
+}
+
+
+.leftDownContent,
+.rightContent {
+            width: 40%;
+}
+
+.leftDownContent>h1 {
+            font-family: "Jaro", sans-serif;
+}
+
+
+.leftDownContent {
+            padding-top: 57px;
+}
+
+.leftDownContent p {
+            font-size: 12px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+}
+
+.downContent {
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+}
+
+.parent {
+            display: flex;
+}
+
+.rightSide {
+            position: relative;
+}
+
+.rightSide>img {
+            position: absolute;
+            width: 200px;
+            top: -5%;
+}
+
+.rightContent {
+            margin-top: 50px;
+}
+
+.rightContent h2 {
+            font-family: "Jaro", sans-serif;
+            font-weight: 100;
+            line-height: 10px;
+            margin-top: 10px;
+}
+
+.rightContent h1 {
+            font-family: "Jaro", sans-serif;
+            text-decoration: underline;
+}
+
+.sections>h4 {
+            font-family: "Jaro";
+            margin-bottom: 6px;
+            margin-top: 2px;
+}
+
+.sections>p {
+            line-height: 12px;
+}
