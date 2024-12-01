@@ -60,10 +60,11 @@ input,
 textarea {
             padding: 12px;
             font-size: 16px;
-            border: 2px solid #ddd;
+            border: 2px solid #ac8989;
             border-radius: 8px;
             outline: none;
             transition: border-color 0.3s ease;
+
 }
 
 
@@ -81,9 +82,10 @@ textarea:invalid {
 }
 
 
-textarea{
+textarea {
             height: 200px;
 }
+
 /* Button styling */
 button {
             padding: 14px 20px;
