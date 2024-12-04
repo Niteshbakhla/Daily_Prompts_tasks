@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Angkor&family=Cedarville+Cursive&family=Dancing+Script:wght@400..700&family=Jaro:opsz@6..72&family=Kavoon&family=Khula:wght@300;400;600;700;800&family=Londrina+Shadow&family=Luckiest+Guy&family=Mohave:ital,wght@0,300..700;1,300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Protest+Revolution&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Wet+Paint&family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Angkor&family=Cedarville+Cursive&family=Dancing+Script:wght@400..700&family=Jaro:opsz@6..72&family=Kavoon&family=Khula:wght@300;400;600;700;800&family=Londrina+Shadow&family=Luckiest+Guy&family=Mohave:ital,wght@0,300..700;1,300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Protest+Revolution&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Wet+Paint&family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Angkor&family=Cedarville+Cursive&family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Jaro:opsz@6..72&family=Kavoon&family=Khula:wght@300;400;600;700;800&family=Londrina+Shadow&family=Luckiest+Guy&family=Mohave:ital,wght@0,300..700;1,300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Protest+Revolution&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Wet+Paint&family=Sora:wght@100..800&display=swap');
+
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+}
+
+
+.container {
+            width: 100%;
+            height: 100%;
+            display: grid;
+            place-items: center;
+            background-image: url(./digital_marketing_background.jpg);
+}
+
+
+.content {
+            width: 90%;
+            height: 90%;
+            box-shadow: -2px 2px 34px 4px rgba(0, 0, 0, 0.75);
+            background-color: #E6E6E6;
+            display: flex;
+            border-radius: 10px;
+            padding: 30px;
+}
+
+.circle {
+            width: 400px;
+            height: 400px;
+            border-radius: 50%;
+            box-shadow: -2px 2px 34px 4px rgba(0, 0, 0, 0.75);
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+}
+
+.circle img {
+            width: 244px;
+            position: absolute;
+            left: 100px;
+            top: -40px;
+}
+
+
+
+.box1,
+.box3 {
+            width: 30%;
+            height: 100%;
+}
+
+.box1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+}
+
+
+.top {
+            align-self: start;
+}
+
+.top img {
+            width: 168px;
+}
+
+.box1 button {
+            padding: 20px 70px;
+            font-size: 1.6vw;
+            margin-top: 30px;
+
+}
+
+.top {
+            margin-left: 10px;
+            margin-top: 10px;
+}
+
+.main-head {
+            margin-top: 160px;
+            text-align: center;
+}
+
+.main-head h3 {
+            font-family: "Dancing Script", cursive;
+            font-size: 4vw;
+}
+
+
+.main-head h1 {
+            font-family: "Montserrat", sans-serif;
+            font-size: 6vw;
+            line-height: 56px;
+}
+
+.main-head h2 {
+            font-family: "Montserrat", sans-serif;
+            font-size: 3vw;
+            margin-top: 10px;
+}
+
+.box2 {
+            width: 40%;
+            height: 100%;
+            display: grid;
+            place-items: center;
+}
+
+
+.box2 button {
+            padding: 20px 80px;
+            font-weight: 600;
+            font-size: 1.3vw;
+            background-color: #F7C6CE;
+            border: none;
+            border-radius: 10px;
+}
+
+.box3 img {
+            width: 200px;
+            animation-name: move;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+}
+
+
+.box3 h1 {
+            font-family: "Edu AU VIC WA NT Arrows", cursive;
+            font-size: 8vw;
+            line-height: 130px;
+}
+
+
+
+@keyframes move {
+            from {
+                        transform: rotate(-10deg);
+            }
+
+            to {
+                        transform: rotate(10deg);
+            }
+}
+
+.special-offer {
+            position: absolute;
+            width: 300px;
+            right: 0;
+            top: 26px;
+            rotate: 108deg;
+}
+
+.box3 button {
+            padding: 10px 60px;
+            margin-top: 70px;
+}
