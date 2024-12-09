@@ -1,30 +1,29 @@
-Deployed links of Tasks.
+Deployed links of Tasks:
 
-Prompt1- https://elevatehubnb.netlify.app/ (Startup)
+**Prompt1** - https://elevatehubnb.netlify.app/ (Startup)
 
-Prompt2- https://travelnb.netlify.app/ (travel)
+**Prompt2** - https://travelnb.netlify.app/ (travel)
 
-Prompt3- https://ngonb.netlify.app/ (ngo)
+**Prompt3** - https://ngonb.netlify.app/ (ngo)
 
-Prompt4- https://flyrenb.netlify.app/ (brochure)
+**Prompt4** - https://flyrenb.netlify.app/ (brochure)
 
-Prompt5 - https://starcoffeenb.netlify.app/ (Coffee landing page)
+**Prompt5** - https://starcoffeenb.netlify.app/ (Coffee landing page)
 
-Prompt6 - https://feedback-formnb.netlify.app/ (Validation form)
+**Prompt6** - https://feedback-formnb.netlify.app/ (Validation form)
 
-Prompt7- https://appnb.netlify.app/ 
+**Prompt7** - https://appnb.netlify.app/
 
-Prompt8 - https://digimarketingnb.netlify.app/
+**Prompt8** - https://digimarketingnb.netlify.app/
 
-Prompt9 - https://conferencenb.netlify.app/ 
+**Prompt9** - https://conferencenb.netlify.app/
 
-Prompt10 - https://photoportfolionb.netlify.app/ 
+**Prompt10** - https://photoportfolionb.netlify.app/
 
-Prompt11 - https://guidelinesnb.netlify.app/
+**Prompt11** - https://guidelinesnb.netlify.app/
 
-Prompt12 - https://subscriptform.netlify.app/
+**Prompt12** - https://subscriptform.netlify.app/
 
-Website1- https://realstatenb.netlify.app/  (RealState)
+Website1 - https://realstatenb.netlify.app/ (RealState)
 
 Website2 - https://eventbooknb.netlify.app/
-
