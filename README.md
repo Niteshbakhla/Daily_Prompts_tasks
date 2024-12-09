@@ -1,6 +1,6 @@
 Deployed links of Tasks:
 
-<h1>**Prompt1** - https://elevatehubnb.netlify.app/ (Startup)</h1>
+<h3>**Prompt1** </h3> - https://elevatehubnb.netlify.app/ (Startup)
 
 **Prompt2** - https://travelnb.netlify.app/ (travel)
 
