@@ -22,4 +22,6 @@ Prompt10 - https://photoportfolionb.netlify.app/
 
 Prompt11 - https://guidelinesnb.netlify.app/
 
-Website1- https://realstatenb.netlify.app/  (RealState )
+Website1- https://realstatenb.netlify.app/  (RealState)
+
+Website2 - https://eventbooknb.netlify.app/
