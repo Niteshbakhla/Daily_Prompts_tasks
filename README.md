@@ -18,16 +18,13 @@ Prompt8 - https://digimarketingnb.netlify.app/
 
 Prompt9 - https://conferencenb.netlify.app/ 
 
-<<<<<<< HEAD
 Prompt10 - https://photoportfolionb.netlify.app/ 
 
-Website1- https://realstatenb.netlify.app/  (RealState )
-=======
-Prompt10 - https://photoportfolionb.netlify.app/
-
 Prompt11 - https://guidelinesnb.netlify.app/
+
+Prompt12 - https://subscriptform.netlify.app/
 
 Website1- https://realstatenb.netlify.app/  (RealState)
 
 Website2 - https://eventbooknb.netlify.app/
->>>>>>> 0775e4d7cde919e06f08f6f39304594ff3745ffa
+
