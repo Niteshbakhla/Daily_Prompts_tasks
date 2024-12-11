@@ -1,0 +1,144 @@
+/* General Reset */
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+}
+
+body {
+            font-family: 'Arial', sans-serif;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #f4ddc5 0%, #897fe4 100%);
+            overflow-x: hidden;
+            transition: background 0.3s ease-in-out;
+}
+
+/* Container */
+.form-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            padding: 20px;
+}
+
+.form-box {
+            background: linear-gradient(145deg, #ffffff, #f3f3f3);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+            text-align: center;
+            width: 100%;
+            max-width: 600px;
+            /* Larger for desktop screens */
+            transition: transform 0.4s ease-in-out;
+}
+
+.form-box:hover {
+            transform: scale(1.02);
+            /* Subtle scaling effect */
+}
+
+.form-title {
+            font-size: 32px;
+            /* Larger for better visibility */
+            color: #333;
+            margin-bottom: 15px;
+}
+
+.form-description {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 25px;
+}
+
+/* Form */
+.subscription-form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+}
+
+.form-input {
+            padding: 15px 20px;
+            font-size: 18px;
+            border: none;
+            border-radius: 50px;
+            background: #f9f9f9;
+            box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.1);
+            outline: none;
+            transition: all 0.4s ease;
+}
+
+.form-input:focus {
+            transform: scale(1.05);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+            background: #ffffff;
+}
+
+.form-button {
+            padding: 15px 20px;
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+            background: linear-gradient(135deg, #ff758c, #ff7eb3);
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.4s ease-in-out;
+}
+
+.form-button:hover {
+            background: linear-gradient(135deg, #ff7eb3, #ff8ea1);
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+            .form-box {
+                        padding: 30px;
+                        max-width: 90%;
+            }
+
+            .form-title {
+                        font-size: 26px;
+            }
+
+            .form-description {
+                        font-size: 16px;
+            }
+
+            .form-input {
+                        font-size: 16px;
+                        padding: 12px 15px;
+            }
+
+            .form-button {
+                        font-size: 18px;
+                        padding: 12px 15px;
+            }
+}
+
+@media (max-width: 480px) {
+            .form-title {
+                        font-size: 22px;
+            }
+
+            .form-description {
+                        font-size: 14px;
+            }
+
+            .form-input {
+                        font-size: 14px;
+                        padding: 10px 12px;
+            }
+
+            .form-button {
+                        font-size: 16px;
+                        padding: 10px 12px;
+            }
+}
