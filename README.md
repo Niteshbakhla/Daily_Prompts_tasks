@@ -24,6 +24,8 @@ Deployed links of Tasks:
 
 **Prompt12** - https://subscriptform.netlify.app/
 
+**Prompt15** - https://fashionnb.netlify.app/
+
 Website1 - https://realstatenb.netlify.app/ (RealState)
 
 Website2 - https://eventbooknb.netlify.app/
