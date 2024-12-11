@@ -1,0 +1,216 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html,
+body {
+            width: 100%;
+            height: 100%;
+            font-size: 16px;
+            overflow: hidden;
+            background: linear-gradient(0deg, #e5f8c7 0%, #dcc690 100%)
+}
+
+
+.container {
+            width: 90%;
+            margin: 0 auto;
+}
+
+
+.nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+}
+
+/* Styling for navigation links */
+.nav-links {
+            display: flex;
+            list-style-type: none;
+            padding: 0;
+}
+
+.nav-links li {
+            margin: 0 15px;
+}
+
+.nav-links a {
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 500;
+}
+
+.nav-links a:hover {
+            color: #ffd700;
+            /* Hover effect */
+}
+
+/* Styling for the logo */
+.logo img {
+            height: 40px;
+            /* Adjust based on your logo size */
+}
+
+/* Button styling */
+.cta-button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            border-radius: 5px;
+}
+
+.cta-button:hover {
+            background-color: #0056b3;
+            /* Darker shade on hover */
+}
+
+
+main {
+            height: 100%;
+            width: 100%;
+            display: flex;
+}
+
+.left {
+            flex-basis: 30%;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            gap: 2vh;
+
+            padding-top: 10vh;
+}
+
+.left h1 {
+            font-size: 4rem;
+            line-height: 10vh;
+            text-transform: uppercase;
+}
+
+.left button {
+            padding: 2vh 4vw;
+            border-radius: 20px;
+            border: none;
+            background-color: #FF7E4C;
+            color: white;
+            font-weight: 600;
+            font-size: 1.2rem;
+
+}
+
+.middle {
+            flex-basis: 40%;
+            display: flex;
+            justify-content: center;
+}
+
+.middle img {
+            width: 30vw;
+            object-fit: cover;
+}
+
+
+.right {
+
+            flex-basis: 30%;
+            display: flex;
+            align-items: center;
+}
+
+.right h4 {
+            color: rgb(57, 53, 53);
+}
+
+.right>div {
+            display: flex;
+            flex-direction: column;
+            gap: 2vh;
+
+}
+
+
+.colors {
+            display: flex;
+            flex-direction: column;
+            gap: 1vw;
+}
+
+.colors>div {
+            display: flex;
+            gap: 1vw;
+}
+
+.color_boxes {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+}
+
+.color_boxes:nth-child(1) {
+            background-color: lightpink;
+}
+
+.color_boxes:nth-child(2) {
+            background-color: lightsalmon;
+}
+
+.color_boxes:nth-child(3) {
+            background-color: lightseagreen;
+}
+
+.color_boxes:nth-child(4) {
+            background-color: lightyellow;
+}
+
+
+.img_container {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5vh;
+}
+
+.img_container>div {
+            display: flex;
+            gap: 1vw;
+}
+
+.img_box {
+            width: 80px;
+            height: 80px;
+            border-radius: 10px;
+            overflow: hidden;
+}
+
+.img_box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top;
+
+}
+
+@media (max-width:500px) {
+            main {
+                        flex-direction: column;
+            }
+
+            .left h1 {
+                        font-size: 4rem;
+                        line-height: 7vh;
+            }
+
+            nav .nav-links{
+                       background-color: red;
+                 display: none;
+                 
+            }
+}
