@@ -1,0 +1,101 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+}
+
+body {
+            font-family: 'Poppins', sans-serif;
+            background: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+}
+
+.faq-section {
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            max-width: 900px;
+            margin: 40px auto;
+}
+
+.faq-section h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+}
+
+.faq-item {
+            background: rgba(255, 255, 255, 0.1);
+            margin-bottom: 15px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.faq-item input[type="radio"] {
+            display: none;
+}
+
+.faq-item label {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            cursor: pointer;
+            font-size: 1.5rem;
+            transition: all 0.3s ease-in-out;
+}
+
+.faq-item label:hover {
+            background: rgba(255, 255, 255, 0.2);
+}
+
+.faq-item label i {
+            font-size: 1.5rem;
+            transition: transform 0.3s ease-in-out;
+}
+
+.faq-item input[type="radio"]:checked+label i {
+            transform: rotate(45deg);
+}
+
+.faq-item .content {
+            max-height: 0;
+            overflow: hidden;
+            padding: 0 20px;
+            background: rgba(255, 255, 255, 0.1);
+            transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
+}
+
+.faq-item input[type="radio"]:checked~.content {
+            max-height: 150px;
+            padding: 15px 20px;
+}
+
+.faq-item .content p {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: white;
+}
+
+@media screen and (max-width: 768px) {
+            .faq-section {
+                        width: 300px;
+                        padding: 20px;
+            }
+
+            .faq-item label {
+                        font-size: 1.2rem;
+            }
+
+            .faq-item .content p {
+                        font-size: 0.9rem;
+            }
+}
