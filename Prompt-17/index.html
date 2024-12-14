@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Feedback Form</title>
+            <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+            <div class="form-container">
+                        <h2>Feedback Form</h2>
+                        <form action="#" method="POST" id="feedback-form">
+                                    <!-- Name Field -->
+                                    <label for="name">Name:</label>
+                                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                                    <div class="hint">Please enter your full name.</div>
+                                    <div class="error">Name is required.</div>
+
+                                    <!-- Email Field -->
+                                    <label for="email">Email:</label>
+                                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                                    <div class="hint">Please enter a valid email address.</div>
+                                    <div class="error">A valid email is required.</div>
+
+                                    <!-- Feedback Field -->
+                                    <label for="feedback">Your Feedback:</label>
+                                    <textarea id="feedback" name="feedback" placeholder="Enter your feedback"
+                                                required></textarea>
+                                    <div class="hint">Please write your feedback here.</div>
+                                    <div class="error">Feedback is required.</div>
+
+                                    <button type="submit">Submit</button>
+                        </form>
+            </div>
+</body>
+
+</html>
