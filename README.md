@@ -32,6 +32,8 @@ Deployed links of Tasks:
 
  **Prompt17** - https://validationformnb.netlify.app/
 
+ **Prompt18** - https://faqform.netlify.app/
+
 Website1 - https://realstatenb.netlify.app/ (RealState)
 
 Website2 - https://eventbooknb.netlify.app/
