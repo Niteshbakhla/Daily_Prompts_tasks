@@ -28,11 +28,11 @@ Deployed links of Tasks:
 
 **Prompt15** - https://fashionnb.netlify.app/
  
- **Prompt16** -https://productnb.netlify.app/
+**Prompt16** -https://productnb.netlify.app/
 
- **Prompt17** - https://validationformnb.netlify.app/
+**Prompt17** - https://validationformnb.netlify.app/
 
- **Prompt18** - https://faqform.netlify.app/
+**Prompt18** - https://faqform.netlify.app/
 
 Website1 - https://realstatenb.netlify.app/ (RealState)
 
