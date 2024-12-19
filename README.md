@@ -36,6 +36,8 @@ Deployed links of Tasks:
 
 **Prompt19** - https://denimcloth.netlify.app/
 
+**Prompt20** - https://portfoliouxnb.netlify.app/
+
 Website1 - https://realstatenb.netlify.app/ (RealState)
 
 Website2 - https://eventbooknb.netlify.app/
