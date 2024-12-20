@@ -10,7 +10,7 @@
 
 html,
 body {
-            height: 100%;
+            min-height: 100vh;
             width: 100%;
             background: linear-gradient(135deg,
                                     rgba(106, 17, 203, 0.2),
@@ -27,6 +27,11 @@ body {
             animation: gradientAnimation 10s ease infinite;
 }
 
+
+.container{
+            width: 100%;
+            min-height: 100vh;
+}
 
 @keyframes gradientAnimation {
             0% {
@@ -49,7 +54,27 @@ nav {
             padding: 0.6vh 8vw;
             display: flex;
             justify-content: space-between;
+            align-items: center;
 }
+
+.img1{
+            display: none;
+}
+
+nav i{
+            display: none;
+}
+
+nav img {
+            width: 200px;
+            margin-top: 10px;
+}
+
+.navbarLeftSide {
+            display: flex;
+            align-items: center;
+}
+
 
 
 nav .navbarLeftSide>div {
@@ -65,7 +90,7 @@ nav .navbarLeftSide>div>span {
 nav .navbarLeftSide>div>span:hover {
             background: linear-gradient(135deg,
                                     rgba(106, 17, 203, 0.2),
-                                    rgba(37, 117, 252, 0.2) )
+                                    rgba(37, 117, 252, 0.2))
 }
 
 nav .navbarRightSide {
@@ -223,4 +248,36 @@ nav .navbarRightSide a {
 .btn:hover {
             background-color: #fff;
             color: #000;
+}
+
+
+
+@media screen and (max-width: 768px) {
+            nav {
+                        padding: 10vh 2vw;
+                        padding-right: 6vw;
+            }
+
+            nav i {
+                        display: block;
+                        font-size: 6vw;
+            }
+
+            .img1{
+                        display: block;
+            }
+
+
+            .navbarRightSide a {
+                        display: none;
+            }
+
+            .navbarRightSide button {
+                        display: none;
+            }
+
+            .navbarLeftSide {
+                        display: none;
+            }
+
 }
