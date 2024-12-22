@@ -40,6 +40,8 @@ Deployed links of Tasks:
 
 **Prompt21** - https://saaspricetag.netlify.app/
 
+**Prompt22** - https://artistportfolionb.netlify.app/
+
 Website1 - https://realstatenb.netlify.app/ (RealState)
 
 Website2 - https://eventbooknb.netlify.app/
