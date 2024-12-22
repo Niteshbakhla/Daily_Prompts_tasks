@@ -42,8 +42,8 @@ Deployed links of Tasks:
 
 **Prompt22** - https://artistportfolionb.netlify.app/
 
-Website1 - https://realstatenb.netlify.app/ (RealState)
+**Website1** - https://realstatenb.netlify.app/ (RealState)
 
-Website2 - https://eventbooknb.netlify.app/
+**Website2** - https://eventbooknb.netlify.app/
 
-Website3 - https://charitydonate.netlify.app/
+**Website3** - https://charitydonate.netlify.app/
