@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Londrina+Shadow&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+}
+
+html,
+body {
+            height: 100%;
+            height: 100%;
+            font-family: "Bebas Neue", serif;
+            padding: 20px;
+}
+
+.container {
+            width: 100%;
+            height: 100%;
+}
+
+nav {
+            width: 100%;
+            height: 5vh;
+            padding: 1vh 8vw;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+}
+
+nav a {
+            text-decoration: none;
+            color: #000;
+            font-size: 1.2rem;
+            padding: 5px 10px;
+            border-radius: 10px;
+}
+
+nav a:nth-child(1) {
+            background-color: #FFCAE0;
+            color: white;
+}
+
+nav a:hover {
+            background-color: black;
+            color: white;
+}
+
+nav button {
+            padding: 10px 30px;
+            border-radius: 5px;
+            border: 1px solid #000;
+            font-weight: 600;
+}
+
+nav button:hover {
+            background-color: black;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+}
+
+.content {
+            width: 100%;
+            height: calc(100% - 5vh);
+            display: flex;
+}
+
+
+.contentLeftSide,
+.contentRightSide {
+            width: 50%;
+            height: 100%;
+
+}
+
+.contentLeftSide {
+            /* background-color: lightgray; */
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: center;
+            gap: 2vh;
+            padding-left: 100px;
+}
+
+
+.contentLeftSide h1 {
+            font-size: 5vw;
+            line-height: 10vh;
+            color: #fdfd88;
+            text-shadow: 5px 5px 10px #000;
+}
+
+.contentLeftSide .whole {
+            font-family: "Londrina Shadow", serif;
+            text-transform: uppercase;
+            color: #A2F4A2;
+            text-shadow: 0 0 0;
+}
+
+.contentLeftSide>div:nth-child(2) {
+            /* background-color: red; */
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+}
+
+.btn_container {
+            width: 30%;
+            height: 40px;
+            display: flex;
+}
+
+.btn_container>button {
+            flex-grow: 1;
+            border: 1px solid #000;
+            font-weight: 600;
+}
+
+
+.btn_container>button:nth-child(2) {
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+}
+
+.btn_container>button:nth-child(1) {
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            background-color: #FFCAE0;
+}
+
+
+.contentRightSide {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+}
+
+.contentRightSide img {
+            width: 80%;
+            height: 80%;
+            /* object-fit: cover; */
+            border-radius: 10px;
+}
+
+
+.img1 {
+            position: absolute;
+            width: 500px;
+}
+
+.img2 {
+            position: absolute;
+            width: 500px;
+            right: 0;
+}
+
