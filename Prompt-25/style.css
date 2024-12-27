@@ -1,0 +1,131 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+}
+
+
+html,
+body {
+            font-family: Arial, sans-serif;
+            scroll-behavior: smooth;
+            /* Enables smooth scrolling */
+}
+
+/* Navbar styling */
+nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            padding: 1rem 0;
+            z-index: 1000;
+}
+
+nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 0.5rem 1rem;
+}
+
+nav a:hover {
+            background-color: #555;
+            border-radius: 5px;
+}
+
+/* Section styling */
+section {
+            height: 100vh;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 2rem;
+            box-sizing: border-box;
+            color: white;
+            text-align: left;
+}
+
+section img {
+            /* max-width: 45%; */
+            border-radius: 10px;
+}
+
+.image_box {
+            /* max-width: 45%; */
+            width: 700px;
+            height: 400px;
+}
+
+
+.image_box img {
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+            border-radius: 10px;
+}
+
+
+
+#guitar1 {
+            background: linear-gradient(225deg, #c8f694 0%, #67edfb 100%)
+}
+
+#guitar2 {
+            flex-direction: row-reverse;
+            background: linear-gradient(225deg, #f78a97 0%, #89f6e9 100%)
+}
+
+#guitar3 {
+            background: linear-gradient(225deg, #b49948 0%, #67edfb 100%)
+}
+
+#guitar4 {
+            flex-direction: row-reverse;
+            background: linear-gradient(225deg, #83bacd 0%, #e2d872 100%)
+}
+
+section .content {
+            max-width: 45%;
+}
+
+section .content h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+}
+
+section .content p {
+            font-size: 1.2rem;
+            margin-bottom: 1.5rem;
+}
+
+section .content button {
+            padding: 0.7rem 1.5rem;
+            font-size: 1rem;
+            margin-right: 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+}
+
+section .content .cart {
+            background-color: #34a853;
+            color: white;
+}
+
+section .content .buy {
+            background-color: #1a73e8;
+            color: white;
+}
+
+
+
+footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+}
