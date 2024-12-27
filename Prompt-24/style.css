@@ -1,0 +1,150 @@
+/* Resetting default margins, padding and box-sizing */
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+}
+
+/* Setting font-family and basic body layout */
+html,
+body {
+            width: 100%;
+            height: 100%;
+            font-family: 'Poppins', sans-serif;
+            color: #333;
+}
+
+body>img{
+            position: absolute;
+            width: 150px;
+            border-radius: 20px;
+}
+
+.img1{
+            right: 0;
+}
+
+.img2{
+            bottom: 0;
+}
+
+.img3{
+            bottom: 0;
+            right: 0;
+}
+
+/* Header Styling */
+header {
+            width: 100%;
+            height: 10vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 90px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header .logo img {
+            height: 50px;
+}
+
+header nav ul {
+            list-style: none;
+            display: flex;
+}
+
+header nav ul li {
+            margin: 0 20px;
+}
+
+header nav ul li a {
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 18px;
+            color: black;
+}
+
+header nav ul li a:hover {
+            color: #f39c12;
+            transition: color 0.3s ease;
+}
+
+/* Section Styling */
+section {
+            width: 100%;
+            min-height: 80vh;
+            /* background: linear-gradient(135deg, #1abc9c, #16a085); */
+            color: black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 40px 20px;
+}
+
+section h1 {
+            font-size: 40px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            line-height: 1.2;
+}
+
+section p {
+            font-size: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.6;
+}
+
+/* Footer Styling */
+footer {
+            width: 100%;
+            height: 10vh;
+            padding: 30px 90px;
+            text-align: center;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+}
+
+footer p {
+            font-size: 16px;
+}
+
+#contact>div p {
+            font-size: 12px;
+}
+
+footer a {
+            color: #f39c12;
+            text-decoration: none;
+            font-weight: 500;
+}
+
+footer a:hover {
+            color: #f1c40f;
+}
+
+footer ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* margin-top: 15px; */
+}
+
+footer ul li {
+            margin: 0 15px;
+}
+
+footer ul li a {
+            color: black;
+            font-size: 18px;
+}
+
+footer ul li a:hover {
+            color: #f39c12;
+            transition: color 0.3s ease;
+}
