@@ -14,23 +14,30 @@ body {
             color: #333;
 }
 
-body>img{
+body>img {
             position: absolute;
-            width: 150px;
+            width: 100px;
             border-radius: 20px;
 }
 
-.img1{
-            right: 0;
+.img1 {
+            right: 33px;
+            top: 86px;
 }
 
-.img2{
-            bottom: 0;
+.img2 {
+            bottom: 55px;
+            left: 32px;
 }
 
-.img3{
-            bottom: 0;
-            right: 0;
+.img3 {
+            bottom: 60px;
+            right: 46px;
+}
+
+.img4 {
+            left: 26px;
+            top: 85px;
 }
 
 /* Header Styling */

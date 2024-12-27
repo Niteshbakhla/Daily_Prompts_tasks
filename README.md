@@ -44,7 +44,7 @@ Deployed links of Tasks:
 
 **Prompt23** - https://designportfolionb.netlify.app/
 
-**Prompt24**-
+**Prompt24**- https://brandphilosophy.netlify.app/
 
 **Prompt25** - https://scrollbarproduct.netlify.app/
 
