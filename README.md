@@ -48,6 +48,10 @@ Deployed links of Tasks:
 
 **Prompt25** - https://scrollbarproduct.netlify.app/
 
+**Prompt26**- https://travelagencynb.netlify.app/
+
+**Prompt27**- https://grapicdesign.netlify.app/
+
 **Website1** - https://realstatenb.netlify.app/ (RealState)
 
 **Website2** - https://eventbooknb.netlify.app/
