@@ -1,0 +1,153 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html,
+body {
+            width: 100%;
+            height: 100%;
+}
+
+
+.container {
+            width: 90%;
+}
+
+.top {
+            width: 100%;
+            height: 30vh;
+            background-color: #e1e0e0;
+            padding-left: 30px;
+}
+
+.top h1 {
+            font-size: 6vw;
+}
+
+.color_container {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+}
+
+.color-boxes {
+            padding-left: 30px;
+}
+
+.color-boxes h1 {
+            margin-bottom: 30px;
+}
+
+.outer_colorbox {
+            width: 300px;
+            height: 300px;
+            border-bottom: 1px solid #333;
+}
+
+.p_colors {
+            display: flex;
+            flex-direction: column;
+            gap: 2vh;
+            height: 80%;
+            width: 100%;
+            border-radius: 10px;
+}
+
+
+.p_colors h1 {
+            font-size: 5vw;
+            color: white;
+            margin-left: 10px;
+}
+
+.p_colors>p {
+            visibility: hidden;
+            font-size: 4vw;
+            text-align: center;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.214);
+            cursor: pointer;
+          
+}
+
+
+.p_colors:hover>p {
+            visibility: visible;
+}
+
+
+.outer_colorbox:nth-child(2)>.p_colors {
+            background-color: #C30E59;
+}
+
+
+.outer_colorbox:nth-child(3)>.p_colors {
+            background-color: #E8E7AB;
+}
+
+.outer_colorbox:nth-child(4)>.p_colors {
+            background-color: #C62300;
+}
+
+
+.containers{
+            padding-left: 30px;
+            padding-top: 30px;
+}
+
+header {
+            text-align: center;
+            margin-bottom: 40px;
+}
+
+h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #d32f2f;
+            /* Red for header */
+}
+
+.explanation {
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-top: 20px;
+            color: #555;
+}
+
+.color-section {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            flex-wrap: wrap;
+}
+
+.color-box {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            width: 30%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.color-box h2 {
+            font-size: 1.5rem;
+            color: #d32f2f;
+            /* Title red color */
+            margin-bottom: 10px;
+            font-weight: 500;
+}
+
+.color-details p {
+            font-size: 0.9rem;
+            line-height: 1.4;
+            color: #333;
+            margin: 5px 0;
+}
+
+strong {
+            font-weight: 500;
+}
