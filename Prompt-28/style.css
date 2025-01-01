@@ -21,7 +21,12 @@ body {
             height: 30vh;
             background-color: #e1e0e0;
             padding-left: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
 }
+
 
 .top h1 {
             font-size: 6vw;
@@ -70,7 +75,7 @@ body {
             color: white;
             background-color: rgba(0, 0, 0, 0.214);
             cursor: pointer;
-          
+
 }
 
 
@@ -93,7 +98,7 @@ body {
 }
 
 
-.containers{
+.containers {
             padding-left: 30px;
             padding-top: 30px;
 }
@@ -103,10 +108,14 @@ header {
             margin-bottom: 40px;
 }
 
+.cont{
+           padding-top: 20px;
+}
+
 h1 {
             font-size: 2.5rem;
             font-weight: 700;
-            color: #d32f2f;
+            /* color: #d32f2f; */
             /* Red for header */
 }
 
@@ -150,4 +159,107 @@ h1 {
 
 strong {
             font-weight: 500;
+}
+
+
+.cont {
+            max-width: 800px;
+            margin: 0 auto;
+}
+
+header {
+            text-align: center;
+            margin-bottom: 40px;
+}
+
+h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+}
+
+.intro {
+            font-size: 1rem;
+            color: #555;
+            line-height: 1.6;
+}
+
+/* Typography Section */
+.typography-section {
+            margin-top: 20px;
+}
+
+.typography-item {
+            margin-bottom: 30px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+}
+
+.typography-item h1,
+.typography-item h2,
+.typography-item h3,
+.typography-item h4,
+.typography-item h5,
+.typography-item h6,
+.typography-item p,
+.typography-item blockquote {
+            margin: 0 0 10px;
+}
+
+.typography-item h1 {
+            font-size: 2.5rem;
+            font-weight: 900;
+}
+
+.typography-item h2 {
+            font-size: 2rem;
+            font-weight: 700;
+}
+
+.typography-item h3 {
+            font-size: 1.75rem;
+            font-weight: 500;
+}
+
+.typography-item h4 {
+            font-size: 1.5rem;
+            font-weight: 400;
+}
+
+.typography-item h5 {
+            font-size: 1.25rem;
+            font-weight: 300;
+}
+
+.typography-item h6 {
+            font-size: 1rem;
+            font-weight: 300;
+}
+
+.body-text {
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.6;
+}
+
+.blockquote {
+            font-size: 1.25rem;
+            font-weight: 400;
+            font-style: italic;
+            color: #555;
+            border-left: 4px solid #3498db;
+            padding-left: 10px;
+            margin: 10px 0;
+}
+
+.caption {
+            font-size: 0.875rem;
+            font-weight: 300;
+            color: #888;
+}
+
+.description {
+            font-size: 0.875rem;
+            color: #777;
+            margin-top: 5px;
 }
