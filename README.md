@@ -52,6 +52,8 @@ Deployed links of Tasks:
 
 **Prompt27**- https://grapicdesign.netlify.app/
 
+**Prompt28** - https://brandguidelines.netlify.app/
+
 **Website1** - https://realstatenb.netlify.app/ (RealState)
 
 **Website2** - https://eventbooknb.netlify.app/
