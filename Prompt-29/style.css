@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Oswald:wght@300;700&display=swap');
+
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+}
+
+body {
+            font-family: 'Oswald', sans-serif;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+            color: #333;
+}
+
+.container {
+            text-align: center;
+            max-width: 800px;
+            width: 100%;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.main_head {
+            font-size: 8rem;
+            color: #B02C1E;
+            -webkit-text-stroke: 2px #000;
+            text-transform: uppercase;
+            position: relative;
+            margin-bottom: 20px;
+}
+
+.main_head::before {
+            content: "Bruno Mars";
+            position: absolute;
+            top: 5px;
+            left: 20px;
+            color: rgb(0, 0, 0);
+            z-index: -1;
+            /* opacity: 0.5; */
+}
+
+.audience {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border-radius: 10px;
+}
+
+.box {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+}
+
+.cont {
+            flex: 1;
+            min-width: 300px;
+            background: #E2B261;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.inside_cont img {
+            width: 100%;
+            border-radius: 5px;
+}
+
+.circle {
+            flex: 1;
+            min-width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background: #E2B261;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.circle img {
+            max-width: 80%;
+            border-radius: 50%;
+}
+
+.timing-box {
+            background-color: #fff;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            max-width: 300px;
+            margin: 0 auto;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.timing-box h2 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #B02C1E;
+}
+
+.timing-box p {
+            margin: 10px 0;
+            font-size: 1rem;
+            color: #555;
+}
+
+.timing-box p em {
+            font-style: italic;
+            color: #777;
+}
+
