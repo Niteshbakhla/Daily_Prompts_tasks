@@ -56,6 +56,12 @@ Deployed links of Tasks:
 
 **Prompt28** - https://brandguidelines.netlify.app/
 
+**Prompt29** - https://localconcert.netlify.app/
+
+**Prompt30** - https://techconferencenb.netlify.app/
+
+**Prompt31** -  https://hotelbookingnb.netlify.app/
+
 **Website1** - https://realstatenb.netlify.app/ (RealState)
 
 **Website2** - https://eventbooknb.netlify.app/
