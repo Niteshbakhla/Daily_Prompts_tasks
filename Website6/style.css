@@ -1,0 +1,760 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Wet+Paint&family=Sora:wght@100..800&display=swap');
+
+
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Sora", sans-serif;
+}
+
+html,
+body {
+            width: 100%;
+            height: 100%;
+            scroll-behavior: smooth;
+}
+
+
+
+a {
+            text-decoration: none;
+}
+
+#navbar>i {
+            display: none;
+}
+
+.sideBar {
+            display: none;
+}
+
+.content {
+            width: 100%;
+            min-height: 100vh;
+            padding: 0 100px;
+            background-color: rgba(249, 231, 234, 0.683);
+}
+
+.half {
+
+            width: 50%;
+            height: 70vh;
+            /* background-color: red; */
+}
+
+nav {
+            width: 100%;
+            height: 10vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: sticky;
+            top: 0;
+            z-index: 999;
+            background-color: rgba(249, 231, 234, 0.683);
+            backdrop-filter: blur(20px);
+            padding: 0 100px;
+}
+
+
+
+.navMiddle {
+            display: flex;
+            gap: 12px;
+}
+
+.navMiddle>a {
+            padding: 7px 12px;
+            border-radius: 20px;
+            /* background-color: red; */
+            border: 1px solid transparent;
+            color: gray;
+            transition: 0.1s all;
+            font-weight: 600;
+
+}
+
+
+.navMiddle>a:hover {
+            /* background-color: gray; */
+            box-shadow: 3px 2px 8px #00000011;
+            border: 1px solid #37373759;
+}
+
+.navLast>button {
+            padding: 10px 20px;
+            border-radius: 10px;
+            background-color: #373737;
+            color: white;
+            border: none;
+            transition: 0.2s all;
+}
+
+.navLast>button:hover {
+            cursor: pointer;
+            border-radius: 0;
+}
+
+
+/* Content1 Starts from here */
+
+
+
+.content1 {
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+}
+
+.content1Left {
+            display: flex;
+            flex-direction: column;
+            padding-top: 82px;
+            gap: 12px;
+            align-items: start;
+}
+
+
+.content1Left>h1 {
+            font-size: 6vw;
+            line-height: 13vh;
+}
+
+.content1Left>p {
+            width: 60%;
+            color: #373737;
+}
+
+.content1Left>button {
+            padding: 10px 20px;
+            border-radius: 10px;
+            background-color: #FEC447;
+            position: relative;
+            outline: none;
+}
+
+
+.content1Left>button::before {
+            content: "";
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background-color: black;
+            z-index: -1;
+            left: 7%;
+            top: 20%;
+            border-radius: 10px;
+            transition: 0.1s all;
+}
+
+button.shadowed::before {
+            left: 1%;
+            top: 7%;
+}
+
+button.pressed::before {
+            left: 7%;
+            top: 20%;
+}
+
+.rightContent {
+            width: 90%;
+            height: 90%;
+            position: relative;
+}
+
+.radiusBox {
+            width: 230px;
+            height: 280px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid #000;
+            border-top-left-radius: 90%;
+            border-top-right-radius: 90%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+}
+
+.pinkRadius {
+            left: 20%;
+            top: 36%;
+}
+
+.childRadius {
+            width: 90%;
+            height: 90%;
+            border-top-left-radius: 90%;
+            border-top-right-radius: 90%;
+            border: 2px solid #000;
+            overflow: hidden;
+}
+
+.pinkRadius {
+            background-color: #DCAABB;
+}
+
+.blueRadius {
+            background-color: #8FB9D2;
+}
+
+.childBlue {
+            background-color: #8FB9D2;
+}
+
+.childPink {
+            background-color: #DCAABB;
+}
+
+.childRadius>img {
+            width: 100%;
+            height: 100%;
+}
+
+.arrows {
+            position: absolute;
+            bottom: -8px;
+            left: -17%;
+}
+
+
+.strap {
+            width: 100%;
+            height: 10vh;
+            background-color: #373737;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+}
+
+.strap img {
+            width: 200px;
+            height: 30px;
+}
+
+/* Content2 Starts from here */
+
+.content2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 60px;
+}
+
+.content2>.head {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+}
+
+.content2>div>h2 {
+            font-size: 46px;
+            width: 74%;
+            text-align: center;
+            color: #373737;
+            margin: 0 auto;
+}
+
+.head {
+            margin: 0 auto;
+            width: 73%;
+}
+
+.head>p {
+            text-align: center;
+            width: 65%;
+            margin: 0 auto;
+}
+
+.box {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+}
+
+.box>.boxes {
+            width: 200px;
+            height: 280px;
+            border-radius: 10px;
+            padding: 20px 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+}
+
+.boxes>div>img {
+            width: 100%;
+            height: 180px;
+}
+
+.boxes button {
+            padding: 8px 5px;
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+}
+
+.boxes button:hover {
+            background-color: rgb(73, 69, 69);
+            color: rgb(255, 255, 255);
+            transition: 0.2s all;
+}
+
+
+
+.box1 {
+            background-color: #9BD3D0;
+
+            border-right: 8px solid #000;
+            border-bottom: 8px solid #000;
+}
+
+.box2 {
+            background-color: #FECCB3;
+            border-right: 8px solid #000;
+}
+
+.box3 {
+            background-color: #FEC447;
+            border-right: 8px solid #000;
+}
+
+.box4 {
+            background-color: #DCAABB;
+            border-right: 8px solid #000;
+}
+
+.box5 {
+            background-color: #8FB9D2;
+            border-right: 8px solid #000;
+}
+
+/* Content3 Starts from here */
+
+
+
+.content3 {
+            width: 100%;
+            min-height: 110vh;
+            display: flex;
+            padding-top: 40px;
+            background-color: #FEC447;
+}
+
+.content3LeftSide>img {
+            width: 100%;
+            height: 100%;
+}
+
+.left {
+            width: 60%;
+            height: 100vh;
+}
+
+.right {
+            width: 40%;
+            height: 100vh;
+}
+
+.content3RightSide {
+            display: flex;
+            flex-direction: column;
+            gap: 5vh;
+}
+
+
+.content3RightSide>h1 {
+            color: white;
+}
+
+.content3RightSide>div {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+}
+
+.content3RightSide>div>div {
+            display: flex;
+
+            align-items: center;
+}
+
+.content3RightSide>div>div>h1 {
+            font-size: 5vw;
+}
+
+.content3RightSide>div>div>h1,
+.content3RightSide>div>div>h4 {
+            color: #0E1947;
+}
+
+.content3RightSide>div>div>h4 {
+            margin-left: 10px;
+            width: 15%;
+            font-size: 1.2vw;
+}
+
+.content3RightSide>div>p {
+            width: 85%;
+}
+
+/* Content4 Starts from here */
+
+
+
+.content4 {
+            padding-top: 130px;
+}
+
+.middle {
+            flex-direction: row-reverse;
+}
+
+.content4>h2 {
+            font-size: 55px;
+            color: #0E1947;
+            margin-bottom: 23px;
+}
+
+.content4>p {
+            width: 39%;
+            color: #0E1947;
+            font-weight: 300;
+}
+
+.content4Sections {
+            display: flex;
+            padding: 60px 0;
+}
+
+.contentLeftSide,
+.contentRightSide {
+            width: 50%;
+            height: 50vh;
+
+}
+
+.contentLeftSide>h2 {
+            font-size: 35px;
+            width: 74%;
+            font-weight: 400;
+            color: #0E1947;
+            line-height: 6vh;
+}
+
+.contentLeftSide>p {
+            width: 57%;
+}
+
+.btn1 {
+            padding: 10px 20px;
+            border-radius: 50px;
+            font-weight: 700;
+            color: #0E1947;
+            border: none;
+            background-color: #9AD3CF;
+}
+
+
+.contentLeftSide {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            gap: 3vh;
+}
+
+.btn2 {
+            padding: 10px 30px;
+            border-radius: 20px;
+            border: 2px solid #0E1947;
+            font-weight: 600;
+}
+
+.contentRightSide {
+            position: relative;
+}
+
+.dibba {
+            position: absolute;
+            width: 320px;
+            height: 310px;
+            border-radius: 10px;
+            overflow: hidden;
+            border: 2px solid #000;
+}
+
+.dibba>img {
+            width: 100%;
+            height: 100%;
+}
+
+.div2 {
+            background-color: #9BD3D0;
+            left: 2.6%;
+            top: 3.9%;
+}
+
+
+/* Content5 starts from here */
+
+.content5 {
+            position: relative;
+}
+
+.content5Boxes {
+            display: flex;
+}
+
+.leftImgBoxes {
+            width: 360px;
+            height: 500px;
+            position: relative;
+
+}
+
+.leftImgBoxes>img {
+            width: 100%;
+            height: 100%;
+}
+
+.imgBoxess {
+            width: 100%;
+            height: 80%;
+            border: 10px solid #0E1947;
+            position: absolute;
+            bottom: 0;
+            z-index: -1;
+            border-radius: 20px;
+}
+
+.block {
+            display: inline-block;
+            background-color: #FEC447;
+            padding: 0 6px;
+            border-radius: 20px;
+            color: white;
+}
+
+.contet5>h1 {
+            text-align: center;
+            font-size: 56px;
+            margin-bottom: 78px;
+}
+
+
+.rightContentboxes {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 3vh;
+}
+
+.rightContentboxes>p {
+            font-size: 27px;
+}
+
+.rightContentboxes>div>h4 {
+            color: rgb(92, 87, 87);
+}
+
+
+.contet5>h1 {
+            font-size: 58px;
+            text-align: center;
+}
+
+
+
+.dblBtn {
+            position: relative;
+            width: 197px;
+            height: 75px;
+            margin: auto;
+}
+
+.dblBtn>button {
+            width: 160px;
+            height: 40px;
+            border-radius: 10px;
+            color: #0E1947;
+            border: 1px solid #000;
+}
+
+.dblBtn>button:nth-child(2) {
+            background-color: #FEC447;
+}
+
+
+.btn3 {
+            position: absolute;
+            z-index: -1;
+            left: 5%;
+            background-color: #000;
+            top: 10%;
+}
+
+/* Content6 */
+
+.content6 {
+            background-color: #FBC8B1;
+
+            padding: 90px;
+}
+
+.flex {
+            display: flex;
+            gap: 20px;
+
+}
+
+.leftContent6>h1 {
+            font-size: 72px;
+            color: #0E1947;
+}
+
+.leftContent6>div {
+            display: flex;
+            flex-direction: column;
+            width: 400px;
+}
+
+.inputBoxes {
+            padding-top: 20px;
+}
+
+.inputBoxes>input {
+            padding: 20px 0;
+            background-color: transparent;
+            border: none;
+            border-bottom: 2px solid #0e1947c5;
+            font-size: 20px;
+}
+
+.inputBoxes>input:nth-child(3) {
+            border-bottom: 3px solid #0E1947;
+}
+
+
+.inputBoxes>input:nth-child(3)::placeholder {
+            font-weight: 600;
+}
+
+.btnBoxes {
+            position: relative;
+            width: 300px;
+            height: 101px;
+}
+
+.btnBoxes>button {
+            width: 160px;
+            height: 50px;
+            border-radius: 10px;
+            position: absolute;
+}
+
+
+.btnBoxes>button:nth-child(1) {
+            z-index: 1;
+}
+
+.bookBtn {
+            width: 500px;
+            left: 3%;
+            background-color: #0E1947;
+            top: 7%;
+}
+
+.rightContent6 {
+            padding-left: 80px;
+}
+
+
+.rightContent6>p {
+            font-size: 21px;
+            width: 74%;
+            margin-bottom: 60px;
+            color: gray;
+}
+
+.rightContent6 {
+            padding-top: 20px;
+}
+
+.content7 {
+            width: 100%;
+            min-height: 50vh;
+            padding: 80px;
+            background-color: #373737;
+}
+
+.content7Content {
+            display: flex;
+            border-bottom: 1px solid #fff;
+            padding-bottom: 30px;
+}
+
+.part1,
+.part2 {
+            flex: 1;
+}
+
+
+.part2 {
+            display: flex;
+            gap: 40px;
+}
+
+
+.part2>div {
+            display: flex;
+            flex-direction: column;
+            gap: 2vh;
+}
+
+.part2>div>h4 {
+            color: rgba(255, 255, 255, 0.688);
+            font-size: 20px;
+}
+
+.part2 a {
+            color: white;
+            font-size: 16px;
+}
+
+.part1 h1 {
+            color: white;
+            margin-bottom: 20px;
+}
+
+.part1 p {
+            width: 62%;
+            font-size: 15px;
+            color: rgba(255, 255, 255, 0.688);
+            font-weight: 200;
+}
+
+.impInput {
+            background-color: white;
+            padding: 10px 8px;
+            border-radius: 16px;
+}
+
+.impInput>input {
+            background: transparent;
+            border: none;
+            color: black;
+            outline: none;
+}
+
+
+.impInput>button {
+            padding: 15px 20px;
+            border-radius: 16px;
+            background-color: #FEC447;
+}
