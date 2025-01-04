@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html,
+body {
+            width: 100%;
+            height: 100%;
+            padding: 20px;
+            overflow: hidden;
+}
+
+
+.container {
+            width: 100%;
+            height: 100%;
+            background-image: url('./bg_ocean.jpeg');
+            background-position: center;
+            background-size: cover;
+            border-radius: 10px;
+            overflow: hidden;
+}
+
+
+.overlay {
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.1);
+}
+
+.image {
+            position: absolute;
+}
+
+
+.image1 {
+            width: 200px;
+}
+
+.image2 {
+            right: 20%;
+            top: 30%;
+}
+
+.image6 {
+            top: 20%;
+            left: 3%;
+            transform: rotate(-28deg);
+            width: 400px;
+}
+
+.image7{
+            width: 300px;
+            right: -1%;
+            top: 0;
+}
+.overlay nav {
+            width: 100%;
+            height: 10vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 5vw;
+}
+
+
+.left_side {
+            display: flex;
+            gap: 30px;
+}
+
+.overlay .left_side a {
+            text-decoration: none;
+            color: white;
+            text-transform: uppercase;
+            padding: 2px 10px;
+            border-radius: 20px;
+            text-transform: 5px 5px 20px #333;
+            border: 1px solid transparent;
+}
+
+.overlay .left_side a:nth-child(1) {
+            border: 1px solid white;
+}
+
+
+.overlay .left_side a:hover {
+            border: 1px solid white;
+}
+
+
+.right_side {
+            width: 230px;
+            height: 4vh;
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            background-color: rgba(255, 255, 255, 0.254);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding-left: 10px;
+}
+
+.right_side input {
+            background-color: transparent;
+            border: none;
+}
+
+
+.right_side input::placeholder {
+            color: black;
+            letter-spacing: 2px;
+            font-weight: 900;
+}
+
+.content {
+            width: 100%;
+            /* height: 100%; */
+            display: flex;
+            justify-content: center;
+}
+
+.right {
+            width: 50%;
+            height: 78vh;
+            /* background-color: red; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+}
+
+
+.right h1:nth-child(1) {
+            font-size: 50px;
+            font-family: 'Bebas Neue', cursive;
+            color: white;
+            text-align: center;
+}
+
+.right h1:nth-child(2) {
+            font-size: 10vw;
+            font-family: 'Pacifico', cursive;
+            color: white;
+            text-align: center;
+            line-height: 1vh;
+            margin-bottom: 60px;
+            -webkit-text-stroke: 1px rgba(246, 141, 141, 0.649);
+            /* text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); */
+}
+
+
+.right h1:nth-child(3) {
+            font-size: 50px;
+            color: white;
+            text-align: center;
+            font-family: 'Bebas Neue', cursive;
+}
+
+
+.right p{
+            color: white;
+            text-shadow: 5px 5px 20px #333;
+}
+
+.right button{
+            padding: 10px 60px;
+            border: none;
+            background-color: #F2E557;
+            color: white;
+            font-weight: 600;
+            font-size: 1.2vw;
+            border-radius: 10px;
+            cursor: pointer;
+}
