@@ -60,6 +60,12 @@ Deployed links of Tasks:
 
 **Prompt30** - https://techconferencenb.netlify.app/
 
+**Prompt31** - https://bookhotelnb.netlify.app/
+
+**Prompt32** - https://summersalenb.netlify.app/
+
+**Prompt33** - https://whatspronb.netlify.app/
+
 **Prompt31** -  https://hotelbookingnb.netlify.app/
 
 **Website1** - https://realstatenb.netlify.app/ (RealState)
@@ -69,3 +75,7 @@ Deployed links of Tasks:
 **Website3** - https://charitydonate.netlify.app/
 
 **Website4** - https://fooddeliverynb.netlify.app/
+
+**Website5** - https://listenpodcastnb.netlify.app/
+
+**Website6** - https://digiproducts.netlify.app/
