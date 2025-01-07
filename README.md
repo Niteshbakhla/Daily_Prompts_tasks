@@ -66,9 +66,7 @@ Deployed links of Tasks:
 
 **Prompt33** - https://whatspronb.netlify.app/
 
-**Prompt31** -  https://hotelbookingnb.netlify.app/
-
-
+**Prompt34** - 
 
 **Website1** - https://realstatenb.netlify.app/ (RealState)
 
