@@ -68,6 +68,8 @@ Deployed links of Tasks:
 
 **Prompt31** -  https://hotelbookingnb.netlify.app/
 
+
+
 **Website1** - https://realstatenb.netlify.app/ (RealState)
 
 **Website2** - https://eventbooknb.netlify.app/
@@ -79,3 +81,5 @@ Deployed links of Tasks:
 **Website5** - https://listenpodcastnb.netlify.app/
 
 **Website6** - https://digiproducts.netlify.app/
+
+**Website7** - https://luxuryshopsnb.netlify.app/
